@@ -1,0 +1,209 @@
+.header {
+  background: #270545;
+  color: #fff;
+  font-size: 2rem;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.inputBarWrap {
+  display: flex;
+  justify-content: center;
+}
+.inputbar {
+  margin: 2rem 1rem 1rem 1rem;
+  /* border: 1px solid #999; */
+  display: flex;
+  /* border-radius: 1rem; */
+  /* height: 70px; */
+}
+.inputSearch {
+  height: 50px;
+  width: 500px;
+  padding: 4px 1.2rem;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
+.inputSearchBtn {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.2rem 0.5rem 1rem;
+  border: none;
+  outline: none;
+  background: #270544;
+  color: #fff;
+  cursor: pointer;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.pageBody {
+}
+.splitScreen {
+  display: flex;
+}
+.articles {
+  width: 80%;
+  /* border: 1px solid black; */
+  height: calc(100vh - 102px);
+  /* overflow: auto; */
+  background: #eee;
+}
+.sidebar {
+  /* height: calc(100vh - 102px); */
+  /* display: none; */
+  height: calc(100vh - 102px);
+  overflow: auto;
+  width: 20%;
+  /* border: 1px solid black; */
+  box-shadow: 10px 0px 13px -7px #666, 4px 6px 10px 8px rgba(0, 0, 0, 0);
+}
+
+.postsWrapper {
+  height: calc(100vh - 222px);
+  overflow: auto;
+  padding: 0 2rem;
+}
+.eachArticle {
+  /* border: 1px solid #000; */
+  /* box-shadow: 2px 2px 9px 5px #999; */
+  padding: 1rem;
+  margin: 1rem 0 2rem 0;
+  /* border-bottom: 1px solid #aaa; */
+  background: #fff;
+  border-radius: 4px;
+}
+
+.eachArticleTitle {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #aaa;
+  font-weight: bold;
+}
+
+.eachArticleAuthor {
+  color: #343498;
+  margin-bottom: 1rem;
+}
+
+.eachArticleDescription {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.eachArticleKeywords {
+  margin: 0.5rem 0;
+  color: #343498;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.eachKeyword {
+  margin-right: 0.5rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.7rem;
+  border: 2px solid #270544;
+  color: #270544;
+  font-weight: bold;
+  /* color: #fff; */
+  margin-bottom: 0.5rem;
+}
+
+.postLastRow {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #aaa;
+}
+
+.repliesItem {
+  display: flex;
+  /* align-items: center; */
+  font-size: 1.1rem;
+}
+
+.repliesItem > img {
+  margin-right: 0.5rem;
+}
+
+.webBtn {
+}
+
+.eachSidebarSection {
+  /* margin: 1rem 0; */
+  padding: 1rem;
+}
+.eachSidebarSection div {
+}
+
+.eachSidebarSectionHeader {
+  /* border-bottom: 1px solid #aaa; */
+  font-weight: bold;
+}
+
+.eachSidebarSymptomItem {
+  margin: 1rem 0;
+}
+.authorListWrap {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.authorsListTitle {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.eachAuthor {
+  margin-bottom: 0.5rem;
+}
+.inputBarRow {
+  display: flex;
+  align-items: center;
+}
+
+.topbtnrow {
+  margin-top: 1rem;
+  display: none;
+}
+.btnSecondaryTop {
+  /* border-radius: 3rem; */
+  height: 2rem;
+  font-size: 1.2rem;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  outline: none;
+  border: 0px solid #fff;
+  /* border-bottom: 1px solid #270544; */
+  background: #270544;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+
+  /* background: #fff; */
+  /* color: #270544; */
+  margin-right: 1rem;
+  height: 50px;
+  /* padding: 4px 1.2rem; */
+  font-size: 1.2rem;
+}
+
+.headerBtns {
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+  display: flex;
+}
+
+.headerLinks {
+  font-size: 1.5rem;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  cursor: pointer;
+  margin-right: 2rem;
+  padding-bottom: 0.3rem;
+}

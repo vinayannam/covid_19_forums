@@ -1,0 +1,107 @@
+2021-04-13 23:48:13.906 INFO  (main) [   ] o.e.j.u.log Logging initialized @1792ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-04-13 23:48:14.226 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.34.v20201102; built: 2020-11-02T14:15:39.302Z; git: e46af88704a893fc12cb0e3bf46e2c7b48a009e7; jvm 11.0.9.1+12-LTS
+2021-04-13 23:48:14.252 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/pranjalipatil/Downloads/solr-8.8.2/server/contexts/] at interval 0
+2021-04-13 23:48:14.635 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-04-13 23:48:14.652 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-04-13 23:48:14.652 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-04-13 23:48:14.654 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2021-04-13 23:48:14.811 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-04-13 23:48:14.822 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.8.2
+2021-04-13 23:48:14.822 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in cloud mode on port 7574
+2021-04-13 23:48:14.822 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/pranjalipatil/Downloads/solr-8.8.2
+2021-04-13 23:48:14.823 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-04-13T23:48:14.823245Z
+2021-04-13 23:48:14.903 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: /Users/pranjalipatil/Downloads/solr-8.8.2/example/cloud/node2/solr
+2021-04-13 23:48:15.042 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Waiting for client to connect to ZooKeeper
+2021-04-13 23:48:15.095 INFO  (zkConnectionManagerCallback-2-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has connected
+2021-04-13 23:48:15.095 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Client is connected to ZooKeeper
+2021-04-13 23:48:15.231 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Loading solr.xml from SolrHome (not found in ZooKeeper)
+2021-04-13 23:48:15.231 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/pranjalipatil/Downloads/solr-8.8.2/example/cloud/node2/solr/solr.xml
+2021-04-13 23:48:15.326 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@146dfe6, but no JMX reporters were configured - adding default JMX reporter.
+2021-04-13 23:48:16.375 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2021-04-13 23:48:16.585 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@312b34e3[provider=null,keyStore=null,trustStore=null]
+2021-04-13 23:48:16.585 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@312b34e3[provider=null,keyStore=null,trustStore=null]
+2021-04-13 23:48:16.782 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@2100d047[provider=null,keyStore=null,trustStore=null]
+2021-04-13 23:48:16.782 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@2100d047[provider=null,keyStore=null,trustStore=null]
+2021-04-13 23:48:16.872 INFO  (main) [   ] o.a.s.c.ZkContainer Zookeeper client=localhost:9983
+2021-04-13 23:48:16.900 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Waiting for client to connect to ZooKeeper
+2021-04-13 23:48:16.912 INFO  (zkConnectionManagerCallback-13-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has connected
+2021-04-13 23:48:16.912 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Client is connected to ZooKeeper
+2021-04-13 23:48:16.959 WARN  (main) [   ] o.a.s.c.ZkController Contents of zookeeper /security.json are world-readable; consider setting up ACLs as described in https://solr.apache.org/guide/zookeeper-access-control.html
+2021-04-13 23:48:16.974 INFO  (main) [   ] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (0) -> (1)
+2021-04-13 23:48:17.049 INFO  (main) [   ] o.a.s.c.ZkController Publish node=192.168.1.200:7574_solr as DOWN
+2021-04-13 23:48:17.075 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2021-04-13 23:48:17.076 INFO  (main) [   ] o.a.s.c.ZkController Register node as live in ZooKeeper:/live_nodes/192.168.1.200:7574_solr
+2021-04-13 23:48:17.111 INFO  (zkCallback-12-thread-1) [   ] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (1) -> (2)
+2021-04-13 23:48:17.154 INFO  (main) [   ] o.a.s.p.PackageLoader /packages.json updated to version -1
+2021-04-13 23:48:17.172 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2021-04-13 23:48:17.350 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2021-04-13 23:48:17.539 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@146dfe6
+2021-04-13 23:48:17.540 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@146dfe6
+2021-04-13 23:48:17.561 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@146dfe6
+2021-04-13 23:48:17.629 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /Users/pranjalipatil/Downloads/solr-8.8.2/example/cloud/node2/solr
+2021-04-13 23:48:17.748 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@503d56b5{/solr,file:///Users/pranjalipatil/Downloads/solr-8.8.2/server/solr-webapp/webapp/,AVAILABLE}{/Users/pranjalipatil/Downloads/solr-8.8.2/server/solr-webapp/webapp}
+2021-04-13 23:48:17.765 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@751d3241{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:7574}
+2021-04-13 23:48:17.765 INFO  (main) [   ] o.e.j.s.Server Started @5654ms
+2021-04-13 23:48:18.925 INFO  (qtp746280996-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=40
+2021-04-13 23:48:18.990 INFO  (qtp746280996-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json} status=0 QTime=5
+2021-04-14 09:29:14.618 WARN  (main-SendThread(localhost:9983)) [   ] o.a.z.ClientCnxn Client session timed out, have not heard from server in 28349ms for session id 0x10004664fd60002
+2021-04-14 09:29:14.638 WARN  (main-SendThread(localhost:9983)) [   ] o.a.z.ClientCnxn Session 0x10004664fd60002 for sever localhost/127.0.0.1:9983, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. => org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 28349ms for session id 0x10004664fd60002
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1243)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 28349ms for session id 0x10004664fd60002
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1243) ~[?:?]
+2021-04-14 09:29:14.932 WARN  (zkConnectionManagerCallback-13-thread-1) [   ] o.a.s.c.c.ConnectionManager Watcher org.apache.solr.common.cloud.ConnectionManager@49664030 name: ZooKeeperConnection Watcher:localhost:9983 got event WatchedEvent state:Disconnected type:None path:null path: null type: None
+2021-04-14 09:29:14.933 WARN  (zkConnectionManagerCallback-13-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has disconnected
+2021-04-14 09:29:16.465 INFO  (zkConnectionManagerCallback-13-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has connected
+2021-04-15 16:57:39.823 INFO  (zkCallback-12-thread-9) [   ] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (2) -> (1)
+2021-04-15 16:57:39.828 INFO  (zkCallback-12-thread-10) [   ] o.a.s.c.OverseerElectionContext I am going to be the leader 192.168.1.200:7574_solr
+2021-04-15 16:57:39.920 INFO  (zkCallback-12-thread-10) [   ] o.a.s.c.Overseer Overseer (id=72062431510528002-192.168.1.200:7574_solr-n_0000000001) starting
+2021-04-15 16:57:40.351 WARN  (main-SendThread(localhost:9983)) [   ] o.a.z.ClientCnxn Session 0x10004664fd60002 for sever localhost/127.0.0.1:9983, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. => java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39) ~[?:?]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:233) ~[?:?]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:223) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:74) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1275) ~[?:?]
+2021-04-15 16:57:40.453 WARN  (zkConnectionManagerCallback-13-thread-1) [   ] o.a.s.c.c.ConnectionManager Watcher org.apache.solr.common.cloud.ConnectionManager@49664030 name: ZooKeeperConnection Watcher:localhost:9983 got event WatchedEvent state:Disconnected type:None path:null path: null type: None
+2021-04-15 16:57:40.455 WARN  (zkConnectionManagerCallback-13-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has disconnected
+2021-04-15 16:57:41.868 WARN  (main-SendThread(localhost:9983)) [   ] o.a.z.ClientCnxn Session 0x10004664fd60002 for sever localhost/127.0.0.1:9983, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. => java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:344) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1275) ~[?:?]
+2021-04-15 16:57:42.943 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@751d3241{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:7574}
+2021-04-15 16:57:42.943 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2021-04-15 16:57:42.956 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1491890454
+2021-04-15 16:57:42.956 INFO  (ShutdownMonitor) [   ] o.a.s.c.ZkController Remove node as live in ZooKeeper:/live_nodes/192.168.1.200:7574_solr
+2021-04-15 16:57:43.790 WARN  (main-SendThread(localhost:9983)) [   ] o.a.z.ClientCnxn Session 0x10004664fd60002 for sever localhost/0:0:0:0:0:0:0:1:9983, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. => java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:344) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1275) ~[?:?]
+2021-04-15 16:57:45.414 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2021-04-15 16:57:45.415 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@27abb6ca: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node/com.codahale.metrics.MetricRegistry@2bd27e6
+2021-04-15 16:57:45.430 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2021-04-15 16:57:45.430 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@e95595b: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm/com.codahale.metrics.MetricRegistry@2f411c00
+2021-04-15 16:57:45.434 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2021-04-15 16:57:45.434 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@5a917723: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty/com.codahale.metrics.MetricRegistry@34f719c9
+2021-04-15 16:57:45.435 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.cluster tag=null
+2021-04-15 16:57:45.442 INFO  (closeThreadPool-25-thread-1) [   ] o.a.s.c.Overseer Overseer (id=72062431510528002-192.168.1.200:7574_solr-n_0000000001) closing
+2021-04-15 16:57:45.444 INFO  (closeThreadPool-25-thread-2) [   ] o.a.s.c.Overseer Overseer (id=72062431510528002-192.168.1.200:7574_solr-n_0000000001) closing
+2021-04-15 16:57:45.807 WARN  (main-SendThread(localhost:9983)) [   ] o.a.z.ClientCnxn An exception was thrown while closing send thread for session 0x10004664fd60002. => java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779) ~[?:?]
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:344) ~[?:?]
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1275) ~[?:?]
+2021-04-15 16:57:45.911 INFO  (ShutdownMonitor) [   ] o.a.s.c.Overseer Overseer (id=72062431510528002-192.168.1.200:7574_solr-n_0000000001) closing
+2021-04-15 16:57:45.922 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@503d56b5{/solr,null,STOPPED}{/Users/pranjalipatil/Downloads/solr-8.8.2/server/solr-webapp/webapp}

@@ -1,0 +1,17 @@
+bin/solr start -c -p 8983 -s example/cloud/node1/solr
+bin/solr start -c -p 7574 -s example/cloud/node2/solr -z localhost:9983
+bin/solr create -c metamap -s 2 -rf 2
+bin/solr create -c scrappedData -s 2 -rf 2
+curl -X POST -H 'Content-type:application/json' --data-binary '{"add-copy-field" : {"source":"*","dest":"_text_"}}' http://localhost:8983/solr/metamap/schema
+curl -X POST -H 'Content-type:application/json' --data-binary '{"add-copy-field" : {"source":"*","dest":"_text_"}}' http://localhost:8983/solr/scrappedData/schema
+bin/post -c metamap example/ontologies.csv
+bin/post -c scrappedData example/stage1_scrapping.csv
+
+
+http://localhost:8983/solr/#/metamap/query
+http://localhost:8983/solr/#/scrappedData/query
+# Deleting collection
+bin/solr delete -c scrappedData
+bin/solr delete -c metamap
+bin/solr stop -all
+

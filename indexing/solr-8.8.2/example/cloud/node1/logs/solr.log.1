@@ -1,0 +1,220 @@
+2021-04-13 23:48:01.714 INFO  (main) [   ] o.e.j.u.log Logging initialized @1639ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-04-13 23:48:02.023 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.34.v20201102; built: 2020-11-02T14:15:39.302Z; git: e46af88704a893fc12cb0e3bf46e2c7b48a009e7; jvm 11.0.9.1+12-LTS
+2021-04-13 23:48:02.052 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/pranjalipatil/Downloads/solr-8.8.2/server/contexts/] at interval 0
+2021-04-13 23:48:02.634 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2021-04-13 23:48:02.657 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2021-04-13 23:48:02.657 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2021-04-13 23:48:02.662 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2021-04-13 23:48:02.809 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2021-04-13 23:48:02.817 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.8.2
+2021-04-13 23:48:02.817 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in cloud mode on port 8983
+2021-04-13 23:48:02.817 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/pranjalipatil/Downloads/solr-8.8.2
+2021-04-13 23:48:02.817 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2021-04-13T23:48:02.817701Z
+2021-04-13 23:48:02.860 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: /Users/pranjalipatil/Downloads/solr-8.8.2/example/cloud/node1/solr
+2021-04-13 23:48:02.861 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/pranjalipatil/Downloads/solr-8.8.2/example/cloud/node1/solr/solr.xml
+2021-04-13 23:48:03.013 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@146dfe6, but no JMX reporters were configured - adding default JMX reporter.
+2021-04-13 23:48:03.975 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2021-04-13 23:48:04.368 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@64fe9da7[provider=null,keyStore=null,trustStore=null]
+2021-04-13 23:48:04.368 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@64fe9da7[provider=null,keyStore=null,trustStore=null]
+2021-04-13 23:48:04.675 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@534180a2[provider=null,keyStore=null,trustStore=null]
+2021-04-13 23:48:04.676 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@534180a2[provider=null,keyStore=null,trustStore=null]
+2021-04-13 23:48:04.802 INFO  (main) [   ] o.a.s.c.SolrZkServerProps Reading configuration from: /Users/pranjalipatil/Downloads/solr-8.8.2/example/cloud/node1/solr/zoo.cfg
+2021-04-13 23:48:04.807 INFO  (main) [   ] o.a.s.c.SolrZkServer STARTING EMBEDDED STANDALONE ZOOKEEPER SERVER at port 9983
+2021-04-13 23:48:04.808 WARN  (main) [   ] o.a.s.c.SolrZkServer Embedded Zookeeper is not recommended in production environments. See Reference Guide for details.
+2021-04-13 23:48:04.928 WARN  (Thread-11) [   ] o.a.z.s.ServerCnxnFactory maxCnxns is not configured, using default value 0.
+2021-04-13 23:48:05.309 INFO  (main) [   ] o.a.s.c.ZkContainer Zookeeper client=localhost:9983
+2021-04-13 23:48:05.416 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Waiting for client to connect to ZooKeeper
+2021-04-13 23:48:05.480 INFO  (zkConnectionManagerCallback-11-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has connected
+2021-04-13 23:48:05.480 INFO  (main) [   ] o.a.s.c.c.ConnectionManager Client is connected to ZooKeeper
+2021-04-13 23:48:08.536 WARN  (main) [   ] o.a.s.c.ZkController Contents of zookeeper /security.json are world-readable; consider setting up ACLs as described in https://solr.apache.org/guide/zookeeper-access-control.html
+2021-04-13 23:48:08.635 INFO  (main) [   ] o.a.s.c.OverseerElectionContext I am going to be the leader 192.168.1.200:8983_solr
+2021-04-13 23:48:08.660 INFO  (main) [   ] o.a.s.c.Overseer Overseer (id=72062431510528000-192.168.1.200:8983_solr-n_0000000000) starting
+2021-04-13 23:48:08.862 INFO  (main) [   ] o.a.s.c.ZkController Register node as live in ZooKeeper:/live_nodes/192.168.1.200:8983_solr
+2021-04-13 23:48:08.870 INFO  (OverseerStateUpdate-72062431510528000-192.168.1.200:8983_solr-n_0000000000) [   ] o.a.s.c.Overseer Starting to work on the main queue : 192.168.1.200:8983_solr
+2021-04-13 23:48:08.904 INFO  (OverseerStateUpdate-72062431510528000-192.168.1.200:8983_solr-n_0000000000) [   ] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (0) -> (1)
+2021-04-13 23:48:08.949 INFO  (main) [   ] o.a.s.p.PackageLoader /packages.json updated to version -1
+2021-04-13 23:48:08.974 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2021-04-13 23:48:09.253 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2021-04-13 23:48:09.360 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@146dfe6
+2021-04-13 23:48:09.361 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@146dfe6
+2021-04-13 23:48:09.368 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@146dfe6
+2021-04-13 23:48:09.418 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /Users/pranjalipatil/Downloads/solr-8.8.2/example/cloud/node1/solr
+2021-04-13 23:48:09.519 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@503d56b5{/solr,file:///Users/pranjalipatil/Downloads/solr-8.8.2/server/solr-webapp/webapp/,AVAILABLE}{/Users/pranjalipatil/Downloads/solr-8.8.2/server/solr-webapp/webapp}
+2021-04-13 23:48:09.529 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@751d3241{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2021-04-13 23:48:09.530 INFO  (main) [   ] o.e.j.s.Server Started @9458ms
+2021-04-13 23:48:11.670 INFO  (qtp746280996-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=48
+2021-04-13 23:48:11.756 INFO  (qtp746280996-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=CLUSTERSTATUS&wt=json} status=0 QTime=3
+2021-04-13 23:48:17.106 INFO  (zkCallback-10-thread-1) [   ] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (1) -> (2)
+2021-04-13 23:51:03.306 INFO  (qtp746280996-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=list&wt=json} status=0 QTime=0
+2021-04-14 00:02:48.498 INFO  (qtp746280996-21) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2021-04-14 00:02:48.500 INFO  (qtp746280996-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1618358568301} status=0 QTime=6
+2021-04-14 00:02:48.508 INFO  (qtp746280996-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618358568302} status=0 QTime=7
+2021-04-14 00:02:48.520 INFO  (qtp746280996-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1618358568302} status=0 QTime=4
+2021-04-14 00:02:48.573 INFO  (qtp746280996-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1618358568302} status=0 QTime=0
+2021-04-14 00:02:48.632 INFO  (qtp746280996-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LISTALIASES&wt=json&_=1618358568302} status=0 QTime=1
+2021-04-14 09:29:14.431 WARN  (main-SendThread(localhost:9983)) [   ] o.a.z.ClientCnxn Client session timed out, have not heard from server in 25184ms for session id 0x10004664fd60000
+2021-04-14 09:29:14.453 WARN  (main-SendThread(localhost:9983)) [   ] o.a.z.ClientCnxn Session 0x10004664fd60000 for sever localhost/127.0.0.1:9983, Closing socket connection. Attempting reconnect except it is a SessionExpiredException. => org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 25184ms for session id 0x10004664fd60000
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1243)
+org.apache.zookeeper.ClientCnxn$SessionTimeoutException: Client session timed out, have not heard from server in 25184ms for session id 0x10004664fd60000
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1243) ~[?:?]
+2021-04-14 09:29:14.470 WARN  (NIOWorkerThread-8) [   ] o.a.z.s.NIOServerCnxn Unexpected exception => EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:53754, session = 0x10004664fd60000
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+org.apache.zookeeper.server.ServerCnxn$EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:53754, session = 0x10004664fd60000
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163) ~[?:?]
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326) ~[?:?]
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522) ~[?:?]
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2021-04-14 09:29:14.647 WARN  (NIOWorkerThread-7) [   ] o.a.z.s.NIOServerCnxn Unexpected exception => EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:53758, session = 0x10004664fd60002
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+org.apache.zookeeper.server.ServerCnxn$EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:53758, session = 0x10004664fd60002
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163) ~[?:?]
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326) ~[?:?]
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522) ~[?:?]
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2021-04-14 09:29:15.466 WARN  (zkConnectionManagerCallback-11-thread-1) [   ] o.a.s.c.c.ConnectionManager Watcher org.apache.solr.common.cloud.ConnectionManager@41857206 name: ZooKeeperConnection Watcher:localhost:9983 got event WatchedEvent state:Disconnected type:None path:null path: null type: None
+2021-04-14 09:29:15.467 WARN  (zkConnectionManagerCallback-11-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has disconnected
+2021-04-14 09:29:16.375 INFO  (zkConnectionManagerCallback-11-thread-1) [   ] o.a.s.c.c.ConnectionManager zkClient has connected
+2021-04-14 15:28:26.392 INFO  (MetricsHistoryHandler-22-thread-1) [   ] o.a.s.c.s.i.SolrClientNodeStateProvider Error on getting remote info, trying again:  => org.apache.solr.client.solrj.SolrServerException: Server refused connection at: http://192.168.1.200:7574/solr
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:688)
+org.apache.solr.client.solrj.SolrServerException: Server refused connection at: http://192.168.1.200:7574/solr
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:688) ~[?:?]
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.request(HttpSolrClient.java:266) ~[?:?]
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.request(HttpSolrClient.java:248) ~[?:?]
+	at org.apache.solr.client.solrj.SolrClient.request(SolrClient.java:1290) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider$ClientSnitchCtx.invoke(SolrClientNodeStateProvider.java:422) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider.fetchReplicaMetrics(SolrClientNodeStateProvider.java:202) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider$AutoScalingSnitch.getRemoteInfo(SolrClientNodeStateProvider.java:275) ~[?:?]
+	at org.apache.solr.common.cloud.rule.ImplicitSnitch.getTags(ImplicitSnitch.java:76) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider.fetchTagValues(SolrClientNodeStateProvider.java:140) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider.getNodeValues(SolrClientNodeStateProvider.java:129) ~[?:?]
+	at org.apache.solr.handler.admin.MetricsHistoryHandler.collectGlobalMetrics(MetricsHistoryHandler.java:519) ~[?:?]
+	at org.apache.solr.handler.admin.MetricsHistoryHandler.collectMetrics(MetricsHistoryHandler.java:390) ~[?:?]
+	at org.apache.solr.handler.admin.MetricsHistoryHandler.lambda$new$0(MetricsHistoryHandler.java:240) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.1.200:7574 [/192.168.1.200] failed: Network is unreachable (connect failed)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[?:?]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[?:?]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[?:?]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[?:?]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[?:?]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[?:?]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[?:?]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[?:?]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[?:?]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[?:?]
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:571) ~[?:?]
+	... 18 more
+Caused by: java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[?:?]
+	at java.net.Socket.connect(Socket.java:609) ~[?:?]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[?:?]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[?:?]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[?:?]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[?:?]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[?:?]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[?:?]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[?:?]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[?:?]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[?:?]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[?:?]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[?:?]
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:571) ~[?:?]
+	... 18 more
+2021-04-14 15:28:26.901 INFO  (MetricsHistoryHandler-22-thread-1) [   ] o.a.s.c.s.i.SolrClientNodeStateProvider Error on getting remote info, trying again:  => org.apache.solr.client.solrj.SolrServerException: Server refused connection at: http://192.168.1.200:7574/solr
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:688)
+org.apache.solr.client.solrj.SolrServerException: Server refused connection at: http://192.168.1.200:7574/solr
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:688) ~[?:?]
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.request(HttpSolrClient.java:266) ~[?:?]
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.request(HttpSolrClient.java:248) ~[?:?]
+	at org.apache.solr.client.solrj.SolrClient.request(SolrClient.java:1290) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider$ClientSnitchCtx.invoke(SolrClientNodeStateProvider.java:422) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider.fetchReplicaMetrics(SolrClientNodeStateProvider.java:202) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider$AutoScalingSnitch.getRemoteInfo(SolrClientNodeStateProvider.java:275) ~[?:?]
+	at org.apache.solr.common.cloud.rule.ImplicitSnitch.getTags(ImplicitSnitch.java:76) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider.fetchTagValues(SolrClientNodeStateProvider.java:140) ~[?:?]
+	at org.apache.solr.client.solrj.impl.SolrClientNodeStateProvider.getNodeValues(SolrClientNodeStateProvider.java:129) ~[?:?]
+	at org.apache.solr.handler.admin.MetricsHistoryHandler.collectGlobalMetrics(MetricsHistoryHandler.java:519) ~[?:?]
+	at org.apache.solr.handler.admin.MetricsHistoryHandler.collectMetrics(MetricsHistoryHandler.java:390) ~[?:?]
+	at org.apache.solr.handler.admin.MetricsHistoryHandler.lambda$new$0(MetricsHistoryHandler.java:240) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.1.200:7574 [/192.168.1.200] failed: Network is unreachable (connect failed)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[?:?]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[?:?]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[?:?]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[?:?]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[?:?]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[?:?]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[?:?]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[?:?]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[?:?]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[?:?]
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:571) ~[?:?]
+	... 18 more
+Caused by: java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[?:?]
+	at java.net.Socket.connect(Socket.java:609) ~[?:?]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[?:?]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[?:?]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[?:?]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[?:?]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[?:?]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[?:?]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[?:?]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[?:?]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[?:?]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[?:?]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[?:?]
+	at org.apache.solr.client.solrj.impl.HttpSolrClient.executeMethod(HttpSolrClient.java:571) ~[?:?]
+	... 18 more
+2021-04-15 16:57:39.635 INFO  (ShutdownMonitor) [   ] o.e.j.s.AbstractConnector Stopped ServerConnector@751d3241{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2021-04-15 16:57:39.636 INFO  (ShutdownMonitor) [   ] o.e.j.s.session node0 Stopped scavenging
+2021-04-15 16:57:39.663 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=952288009
+2021-04-15 16:57:39.663 INFO  (ShutdownMonitor) [   ] o.a.s.c.ZkController Remove node as live in ZooKeeper:/live_nodes/192.168.1.200:8983_solr
+2021-04-15 16:57:39.706 INFO  (ShutdownMonitor) [   ] o.a.s.c.ZkController Publish this node as DOWN...
+2021-04-15 16:57:39.706 INFO  (ShutdownMonitor) [   ] o.a.s.c.ZkController Publish node=192.168.1.200:8983_solr as DOWN
+2021-04-15 16:57:39.756 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2021-04-15 16:57:39.758 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@1f2f0109: rootName = null, domain = solr.node, service url = null, agent id = null] for registry solr.node/com.codahale.metrics.MetricRegistry@ef6b3b5
+2021-04-15 16:57:39.780 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2021-04-15 16:57:39.781 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@71cea1b8: rootName = null, domain = solr.jvm, service url = null, agent id = null] for registry solr.jvm/com.codahale.metrics.MetricRegistry@1f1b80ef
+2021-04-15 16:57:39.785 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2021-04-15 16:57:39.786 INFO  (ShutdownMonitor) [   ] o.a.s.m.r.SolrJmxReporter Closing reporter [org.apache.solr.metrics.reporters.SolrJmxReporter@659f226a: rootName = null, domain = solr.jetty, service url = null, agent id = null] for registry solr.jetty/com.codahale.metrics.MetricRegistry@7e0376b
+2021-04-15 16:57:39.787 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.cluster tag=null
+2021-04-15 16:57:39.790 INFO  (closeThreadPool-27-thread-1) [   ] o.a.s.c.Overseer Overseer (id=72062431510528000-192.168.1.200:8983_solr-n_0000000000) closing
+2021-04-15 16:57:39.790 INFO  (OverseerStateUpdate-72062431510528000-192.168.1.200:8983_solr-n_0000000000) [   ] o.a.s.c.Overseer Overseer Loop exiting : 192.168.1.200:8983_solr
+2021-04-15 16:57:39.793 INFO  (OverseerAutoScalingTriggerThread-72062431510528000-192.168.1.200:8983_solr-n_0000000000) [   ] o.a.s.c.a.OverseerTriggerThread OverseerTriggerThread woken up but we are closed, exiting.
+2021-04-15 16:57:39.798 INFO  (closeThreadPool-27-thread-1) [   ] o.a.s.c.Overseer Overseer (id=72062431510528000-192.168.1.200:8983_solr-n_0000000000) closing
+2021-04-15 16:57:39.921 INFO  (ShutdownMonitor) [   ] o.a.s.c.Overseer Overseer (id=72062431510528000-192.168.1.200:8983_solr-n_0000000000) closing
+2021-04-15 16:57:39.922 WARN  (Thread-11) [   ] o.a.z.s.ZooKeeperServerMain Server interrupted => java.lang.InterruptedException
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1040)
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1040) ~[?:?]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1345) ~[?:?]
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:232) ~[?:?]
+	at org.apache.zookeeper.server.ZooKeeperServerMain.runFromConfig(ZooKeeperServerMain.java:181) ~[?:?]
+	at org.apache.solr.cloud.SolrZkServer$1.run(SolrZkServer.java:121) ~[?:?]
+2021-04-15 16:57:39.942 INFO  (Thread-11) [   ] o.a.s.c.SolrZkServer ZooKeeper Server exited.
+2021-04-15 16:57:39.952 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@503d56b5{/solr,null,STOPPED}{/Users/pranjalipatil/Downloads/solr-8.8.2/server/solr-webapp/webapp}

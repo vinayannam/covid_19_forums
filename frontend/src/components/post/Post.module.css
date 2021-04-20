@@ -1,0 +1,110 @@
+.eachArticle {
+  /* border: 1px solid #000; */
+  /* box-shadow: 2px 2px 9px 5px #999; */
+  padding: 1rem;
+  margin: 1rem 0 2rem 0;
+  /* border-bottom: 1px solid #aaa; */
+  background: #fff;
+  border-radius: 4px;
+}
+
+.eachArticleTitle {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #aaa;
+  font-weight: bold;
+}
+
+.eachArticleAuthor {
+  color: #343498;
+  margin-top: 0.5rem;
+  display: flex;
+  font-size: 1rem;
+}
+.eachArticleAuthor > img {
+  margin-right: 0.5rem;
+}
+.eachArticleAuthor > div {
+}
+
+.eachArticleDescription {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.eachArticleKeywords {
+  margin: 0.5rem 0;
+  color: #343498;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.eachKeyword {
+  margin-right: 0.5rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.7rem;
+  border: 2px solid #270544;
+  color: #270544;
+  font-weight: bold;
+  /* color: #fff; */
+  margin-bottom: 0.5rem;
+}
+
+.btnSecondary {
+  border-radius: 1rem;
+  height: 2rem;
+  font-size: 1.2rem;
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #270544;
+  color: #270544;
+}
+
+.postLastRow {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #aaa;
+}
+
+.repliesItem {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.visitImage {
+  margin-left: 0.5rem;
+}
+.repliesItem > img {
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: -2px;
+}
+
+.showButton {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  padding: 0.3rem 0;
+}
+.repliesItemLike {
+  display: flex;
+  align-items: flex-end;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.repliesItemLike:hover {
+  color: #270544;
+}
+
+.repliesItemLikeImg {
+  margin-right: 0.5rem;
+}
+.flex {
+  display: flex;
+}
+.eachArticleAuthor {
+}

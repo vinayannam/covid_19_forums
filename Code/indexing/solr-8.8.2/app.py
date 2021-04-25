@@ -11,7 +11,7 @@ cache = {}
 
 @app.route("/")
 def index():
-    return jsonify({ "hi": True })
+    return jsonify({ "Online": True })
 
 @app.route("/home", methods = ['POST'])
 def hello():

@@ -7,4 +7,4 @@
 i) bin/solr start -c -p 8983 -s example/cloud/node1/solr \
 ii) bin/solr start -c -p 7574 -s example/cloud/node2/solr -z localhost:9983
 2) Run app.py file in the same folder
-3) Run the UI
+3) Run the UI from frontend/src folder

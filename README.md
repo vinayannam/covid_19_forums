@@ -9,7 +9,7 @@
     bin/solr start -c -p 7574 -s example/cloud/node2/solr -z localhost:9983
 ```
 2) Run the API file present in the same folder using the following command: 
-    ```
+```
     python app.py
-    ```
+```
 3) Run the UI from frontend/src folder
